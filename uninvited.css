@@ -121,7 +121,7 @@ img{
 .navbar{
 font-size: 18px;
 background-color: rgba(232, 218, 208, 0.8);
-font-family: Sancreek;
+font-family: oswald;
 }
 
 #bottomBar{
@@ -167,7 +167,7 @@ span{
 }
 
 h1{
-    font-family: Sancreek;
+    font-family: oswald;
 }
 
 #bottomBar div .fa{
