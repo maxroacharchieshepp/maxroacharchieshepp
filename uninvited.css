@@ -1,24 +1,8 @@
-
-
-#three{
-  font-family: Ewert;
+@font-face {
+    font-family: 'oswald';
+    src: url('/Cash_Currency.ttf');
 }
 
-#four{
-  font-family: Freckle Face;
-}
-
-#five{
-  font-family: Fredericka the Great;
-}
-
-#eight{
-  font-family: Sancreek;
-}
-
-#ten{
-  font-family: Special Elite;
-}
 
 img{
   margin: 10px auto;
@@ -67,7 +51,7 @@ img{
 }
 
 #home span{
-  font-family:  Sancreek;
+  font-family:  oswald;
 }
 
 #credits{
