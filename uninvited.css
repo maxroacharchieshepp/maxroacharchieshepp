@@ -1,0 +1,233 @@
+
+
+#three{
+  font-family: Ewert;
+}
+
+#four{
+  font-family: Freckle Face;
+}
+
+#five{
+  font-family: Fredericka the Great;
+}
+
+#eight{
+  font-family: Sancreek;
+}
+
+#ten{
+  font-family: Special Elite;
+}
+
+img{
+  margin: 10px auto;
+  border-radius: 5px;
+  border: solid 2px black;
+  object-fit: cover;
+  max-height: 200px;
+  width: 100%;
+}
+
+#logo{
+  border: none;
+  width: 100px;
+  height: auto;
+  margin-bottom: 20px;
+}
+
+#home{
+  background-color: white;
+}
+
+.textContainer {
+  border: solid 2px black;
+  margin: 10px auto;
+  width: 70vw;
+  height: 50vh;
+  background: url("photos/image6.jpg") no-repeat center center;
+-webkit-background-size: cover;
+-moz-background-size: cover;
+-o-background-size: cover;
+  background-size: cover;
+  border-radius:8px;
+}
+
+.textBox{
+  position: relative;
+  margin: 5px auto;
+  margin-bottom: 25px;
+  font-size: 15px;
+  width: 50vw;
+  min-width: 240px;
+  color: black;
+  background-color: white;
+  padding: 0px 15px;
+  text-align: center;
+}
+
+#home span{
+  font-family:  Sancreek;
+}
+
+#credits{
+  padding-bottom: 20px;
+  text-align: center;
+  height: 10vh;
+  font-size: 12px;
+}
+
+#sectOne { 
+
+  
+}
+
+#sectTwo{
+  
+}
+
+#sectThree{
+  
+}
+
+#sectFour i{
+  color: black;
+   cursor: default;
+}
+
+#sectThree iframe{
+  margin: 20px;
+}
+
+
+.videoBox{
+  position: relative;
+  width: 30%;
+  min-width: 300px;
+  margin: 20px auto;
+}
+
+.videoWrapper {
+  position: relative;
+  padding-bottom: 56.25%; /* 16:9 */
+  padding-top: 25px;
+  height: 0;
+}
+
+.videoWrapper iframe {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+
+
+.section{
+  padding-top: 60px;
+  min-height: 90vh;
+  text-align: center;
+}
+
+.navbar-brand{
+  font-size: 25px;
+}
+
+
+.navbar{
+font-size: 18px;
+background-color: rgba(232, 218, 208, 0.8);
+font-family: Sancreek;
+}
+
+#bottomBar{
+  position: fixed;
+  background-color: rgba(232, 218, 208, 0.8);
+  bottom:0;
+  width: 100vw;
+  height: 40px;
+  border-top: solid 1px white;
+  padding: 5px 20px;
+  color: #5E5E5E;
+}
+
+#bottomBar div{
+ display: inline-block;
+  overflow: hidden;
+  margin-left: 5px;
+  height: 30px;
+}
+
+#bottomBar button{
+  float: right;
+  background-color: transparent;
+  border: none;
+}
+
+#bottomBar button:hover{
+  color: #333;
+  }
+
+#songStatus{
+  width:130px;
+  white-space: nowrap; /* This stops the text from breaking to new line*/
+}
+
+span{
+  font-weight: bold;
+}
+
+
+.fa{
+  color: #5E5E5E;
+}
+
+h1{
+    font-family: Sancreek;
+}
+
+#bottomBar div .fa{
+   margin: 0 8px;
+}
+
+.fa:hover {
+ color: #333;
+}
+
+a, .fa{
+   cursor:pointer;
+}
+
+.btn-default{
+  border: none;
+  display: inline-block;
+  float: right;
+  background-color: transparent;
+}
+
+button:focus {outline:0;}
+
+.btn-default:hover{
+  background-color: transparent;
+}
+
+#songStatus p{
+   position: relative;
+   left: 150px;
+    -webkit-animation: mymove  10s infinite; /* Chrome, Safari, Opera */
+    animation: mymove 15s infinite;
+    animation-timing-function: linear;
+}
+
+/* Chrome, Safari, Opera */
+@-webkit-keyframes mymove {
+    100%{left: -200px;}
+}
+
+/* Standard syntax */
+@keyframes mymove {
+    100%{left: -200px;}
+}
+
+
+
