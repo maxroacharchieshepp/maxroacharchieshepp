@@ -171,7 +171,7 @@ $("#language").click(function(){
 
 function menuToTurkish(){
  
-  $("#photos").text("Fotoğraflar");
+  $("#photos").text("Fotograflar");
   $("#videos").text("Videolar");
   $("#contact").text("Irtibat");
   $("#language").text("English");
