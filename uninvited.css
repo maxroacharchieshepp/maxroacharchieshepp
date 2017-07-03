@@ -21,7 +21,7 @@ img{
 }
 
 #home{
-  background-color: black;
+  background-color: white;
 }
 
 .textContainer {
@@ -45,7 +45,7 @@ img{
   width: 50vw;
   min-width: 240px;
   color: pink;
-  background-color: black;
+  background-color: white;
   padding: 0px 15px;
   text-align: center;
 }
@@ -55,7 +55,7 @@ img{
 }
 
 #credits{
-  background-color: black;
+  background-color: white;
   padding-bottom: 20px;
   text-align: center;
   height: 10vh;
