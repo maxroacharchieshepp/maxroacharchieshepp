@@ -21,7 +21,7 @@ img{
 }
 
 #home{
-  background-color: white;
+  background-color: black;
 }
 
 .textContainer {
@@ -44,8 +44,8 @@ img{
   font-size: 15px;
   width: 50vw;
   min-width: 240px;
-  color: black;
-  background-color: white;
+  color: pink;
+  background-color: black;
   padding: 0px 15px;
   text-align: center;
 }
