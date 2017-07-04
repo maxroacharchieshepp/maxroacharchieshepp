@@ -130,8 +130,10 @@ $(".fa-step-forward").click(function(){
 });
 
 
+keyData[1].sound.play();
+
 $( document ).ready(function() {
-   keyData[1].sound.play();
+   
  
 //run on document load and on window resize
    //on load
