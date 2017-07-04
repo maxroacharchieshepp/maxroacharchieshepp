@@ -130,17 +130,7 @@ $(".fa-step-forward").click(function(){
 });
 
 
-$( document ).ready(function() {
-   keyData[1].sound.play();
- 
-//run on document load and on window resize
-   //on load
-    hideDiv();
-    //on resize
-    $(window).resize(function(){
-        hideDiv();
-    });
-});
+
 
 //the function to hide the div
 function hideDiv(){
