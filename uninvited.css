@@ -29,7 +29,7 @@ img{
   margin: 10px auto;
   width: 70vw;
   height: 50vh;
-  background: url("photos/image15.gif") no-repeat center center;
+  background: url("photos/image06.jpg") no-repeat center center;
 -webkit-background-size: cover;
 -moz-background-size: cover;
 -o-background-size: cover;
@@ -44,7 +44,7 @@ img{
   font-size: 15px;
   width: 50vw;
   min-width: 240px;
-  color: purple;
+  color: black;
   background-color: white;
   padding: 0px 15px;
   text-align: center;
