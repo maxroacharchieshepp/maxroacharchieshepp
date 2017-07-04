@@ -72,7 +72,7 @@ var keyData = {
   onstop: showPlay  
                     
                    }),
-  title: "Song2" 
+  title: "Dinah" 
   }, 
   3 : {
   sound : new Howl({src: ["music/Uninvited03.mp3"], 
@@ -82,7 +82,7 @@ var keyData = {
   onstop: showPlay  
                     
                     }),
-  title: "Song3"
+  title: "5 foot 2"
   }, 
   4 : {
   sound : new Howl({src: ["music/Uninvited04.mp3"],
@@ -91,7 +91,7 @@ var keyData = {
   onplay: onPlay,
   onstop: showPlay  
                      }),
-  title: "Song4"
+  title: "im gonna sit right down and wright myself a letter"
   }
 }  
 
