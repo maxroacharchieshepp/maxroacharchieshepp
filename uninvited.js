@@ -28,6 +28,11 @@ $("#contact").click(function(){
    $('#sectFour').show();
 });
 
+$("#shop").click(function(){
+   $('.section').hide();
+   $('#sectFive').show();
+});
+
 var currentTrack = 1;
 $('.fa-pause').hide();
 
