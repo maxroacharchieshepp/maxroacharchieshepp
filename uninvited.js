@@ -68,7 +68,7 @@ var keyData = {
   onplay: onPlay,
   onstop: showPlay               
                    }),
-  title: "Rosetta" 
+  title: "Honeysuckle Rose" 
   },
   2 : {
   sound : new Howl({src: ["music/Uninvited02.mp3"],
@@ -78,7 +78,7 @@ var keyData = {
   onstop: showPlay  
                     
                    }),
-  title: "Song2" 
+  title: "Sweet Sue" 
   }, 
   3 : {
   sound : new Howl({src: ["music/Uninvited03.mp3"], 
@@ -88,16 +88,7 @@ var keyData = {
   onstop: showPlay  
                     
                     }),
-  title: "Song3"
-  }, 
-  4 : {
-  sound : new Howl({src: ["music/Uninvited04.mp3"],
-  onend: playNext,
-  onpause: showPlay,                  
-  onplay: onPlay,
-  onstop: showPlay  
-                     }),
-  title: "Song4"
+  title: "Bei Mir Du Shen"
   }
 }  
 
@@ -119,14 +110,14 @@ $(".fa-step-backward").click(function(){
     if(currentTrack !== 1){
    currentTrack--;
  } else {
-  currentTrack = 4; // change this if I had more tracks!!
+  currentTrack = 3; // change this if I had more tracks!!
  }
    keyData[currentTrack].sound.play();
 });
 
 $(".fa-step-forward").click(function(){
    keyData[currentTrack].sound.stop();
-   if(currentTrack<4){ // change this if I had more tracks!!
+   if(currentTrack<3){ // change this if I had more tracks!!
    currentTrack++;
  } else {
   currentTrack = 1;
